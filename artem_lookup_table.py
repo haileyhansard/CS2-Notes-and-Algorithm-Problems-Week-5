@@ -35,10 +35,10 @@ print(sqrt_lookup_table[234])
 
 
 #Can use this to test the speed of each
-t1 = time.time()
-get_inverse_square(556)
-print("Time to find inverse root: %f " % (time.time() - t1))
+# t1 = time.time()
+# get_inverse_square(556)
+# print("Time to find inverse root: %f " % (time.time() - t1))
 
-t1 = time.time()
-print(sqrt_lookup_table[556])
-print("Time to lookup inverse root: %f " % (time.time() - t1))
+# t1 = time.time()
+# print(sqrt_lookup_table[556])
+# print("Time to lookup inverse root: %f " % (time.time() - t1))
